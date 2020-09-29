@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "TD NodeJS",
   "scripts": {
-    "learnyounode": "learnyounode"
+    "menu": "learnyounode",
+    "verify": "learnyounode verify",
   },
   "dependencies": {
     "learnyounode": "^4.2.2"
