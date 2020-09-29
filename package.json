@@ -1,0 +1,11 @@
+{
+  "name": "td-node",
+  "version": "1.0.0",
+  "description": "TD NodeJS",
+  "scripts": {
+    "learnyounode": "learnyounode"
+  },
+  "dependencies": {
+    "learnyounode": "^4.2.2"
+  }
+}
