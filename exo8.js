@@ -1,12 +1,12 @@
-let http = require('http');
+const http = require('http');
 const [_node, _path, urlLink] = process.argv
 
 http.get(urlLink, response =>  {
 
 	let result = '';
-    response.setEncoding('utf8');
-    response.on('data',  data => {
-     result += data;
+  response.setEncoding('utf8');
+  response.on('data',  data => {
+   result += data;
  });
 
 	response.on('end', () => {
