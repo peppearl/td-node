@@ -9,3 +9,5 @@ const callback = (err, list) => {
 }
 
 myModule(dir, filterExtension, callback);
+
+
